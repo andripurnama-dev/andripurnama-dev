@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="230" viewBox="0 0 820 230" role="img" aria-labelledby="title desc">
+  <title id="title">Animated developer terminal</title>
+  <desc id="desc">A dark terminal panel showing an IT educator and developer profile.</desc>
+  <defs>
+    <clipPath id="line1"><rect x="40" y="62" width="0" height="26"><animate attributeName="width" values="0;735;735;0" keyTimes="0;0.15;0.92;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="line2"><rect x="40" y="102" width="0" height="26"><animate attributeName="width" values="0;0;735;735;0" keyTimes="0;0.22;0.40;0.92;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="line3"><rect x="40" y="142" width="0" height="26"><animate attributeName="width" values="0;0;735;735;0" keyTimes="0;0.42;0.60;0.92;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="line4"><rect x="40" y="182" width="0" height="26"><animate attributeName="width" values="0;0;735;735;0" keyTimes="0;0.62;0.80;0.92;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="818" height="228" rx="12" fill="#070d0a" stroke="#39ff6a" stroke-opacity=".45"/>
+  <path d="M1 13a12 12 0 0 1 12-12h794a12 12 0 0 1 12 12v24H1z" fill="#0d1a13"/>
+  <circle cx="24" cy="19" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="19" r="6" fill="#27c93f"/>
+  <text x="410" y="24" text-anchor="middle" font-family="monospace" font-size="13" fill="#7fb894">developer@portfolio: ~</text>
+
+  <g font-family="monospace" font-size="14">
+    <g clip-path="url(#line1)">
+      <text x="40" y="80"><tspan fill="#39ff6a">$ </tspan><tspan fill="#d6ffe4">whoami  →  IT Educator | IT Developer | TKJ Teacher</tspan></text>
+    </g>
+    <g clip-path="url(#line2)">
+      <text x="40" y="120"><tspan fill="#39ff6a">$ </tspan><tspan fill="#d6ffe4">mission  →  Connecting education, technology &amp; innovation</tspan></text>
+    </g>
+    <g clip-path="url(#line3)">
+      <text x="40" y="160"><tspan fill="#39ff6a">$ </tspan><tspan fill="#d6ffe4">expertise  →  Networking | Linux | Servers | Web Development</tspan></text>
+    </g>
+    <g clip-path="url(#line4)">
+      <text x="40" y="200"><tspan fill="#39ff6a">$ </tspan><tspan fill="#d6ffe4">status  →  </tspan><tspan fill="#00e5ff">Open to collaboration</tspan></text>
+    </g>
+  </g>
+  <rect x="40" y="204" width="9" height="3" fill="#39ff6a">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
